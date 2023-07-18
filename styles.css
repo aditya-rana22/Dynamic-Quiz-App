@@ -1,0 +1,37 @@
+html,body{
+    height: 100%;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4a261;
+}
+.containerr{
+    /* flex-wrap: wrap; */
+    padding:1em 1em;
+    width: 70%;
+    height: 600px;
+    background-color: #e76f51;
+    border-radius: 2rem;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 1em 1em 1em rgba(0, 0, 0,0.4);
+}
+.title{
+    text-shadow: 0.1em 0.1em 0.1em #000;
+    /* display: block; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:self-start;
+    flex-wrap: wrap;
+}
+#start{
+    background-color: #f4a261;
+    border: none;
+    color: white;
+    margin-top: 1em;
+    align-self: center;
+}
